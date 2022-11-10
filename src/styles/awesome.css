@@ -1,0 +1,40 @@
+
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 58px;
+}
+.cards__card {
+  max-width: 370px;
+  padding-left: 15px;
+}
+
+.cards__img {
+  width: 66px;
+  height: 66px;
+}
+
+.cards__elipse {
+  margin: 0 auto;
+  padding: 13px;
+  border: 1px solid #ec7979;
+  border-radius: 50%;
+  max-width: 92px;
+  max-height: 92px;
+}
+
+.cards__title {
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans";
+  font-size: 24px;
+  padding: 50px 0 20px;
+
+}
+
+.cards__paragraf {
+  text-align: center;
+  font-family: "Raleway";
+  font-size: 18px;
+}

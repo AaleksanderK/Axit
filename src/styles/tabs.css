@@ -1,0 +1,52 @@
+.tabs__navigation {
+  padding-top: 50px;
+}
+
+.tabs__nav {
+  font-family: "Open Sans";
+  padding: 10px 70px;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: 0;
+  background-color: white;
+  cursor: pointer;
+}
+.tabs__nav--active {
+  border: 1px solid #c6cbcd;
+  border-bottom-style: none;
+  border-radius: 5px 5px 0 0;
+}
+.tabs__container {
+  display: flex;
+}
+
+.tabs__text {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0 0 0 80px;
+  min-width: 700px;
+  border: 1px solid #c6cbcd;
+  max-height: 500px;
+  border-right-style: none;
+}
+.tabs__title {
+  font-size: 30px;
+  font-family: "Open Sans";
+}
+.tabs__paragrah {
+  font-size: 18px;
+  font-family: "Raleway";
+  max-width: 570px;
+}
+
+.tabs__button {
+  font-family: "Open Sans";
+  font-size: 18px;
+  color: white;
+  background-color: #ec7979;
+  padding: 19px 92px;
+  border: none;
+  cursor: pointer;
+}

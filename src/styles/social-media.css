@@ -1,0 +1,24 @@
+.social-media {
+  background-color: #f8efef;
+}
+.social-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-container .social-links__icon {
+  padding: 0 10px;
+}
+.social-text__title {
+  font-family: "Open Sans";
+  font-size: 24px;
+  padding: 10px;
+}
+.social-text__paragraph {
+  width: 470px;
+  font-family: "Raleway";
+  font-size: 18px;
+  padding: 10px;
+  color: #86878b;
+}
