@@ -15,6 +15,8 @@
   border: 1px solid #c6cbcd;
   border-bottom-style: none;
   border-radius: 5px 5px 0 0;
+  position: relative;
+  top: 1px;
 }
 .tabs__container {
   display: flex;
