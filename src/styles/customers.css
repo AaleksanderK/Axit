@@ -1,0 +1,54 @@
+.reviews {
+  display: flex;
+  justify-content: space-between;
+}
+.review {
+  position: relative;
+}
+.review__message {
+  max-width: 370px;
+  min-height: 180px;
+  background-color: #e2e2e2;
+  position: relative;
+  margin: 0;
+  border-radius: 10px;
+}
+.review__message-text {
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 21px;
+  color: #86878b;
+  text-align: center;
+  padding: 38px 25px 37px;
+}
+
+.review__message::after {
+  content: "";
+  border-top: 20px solid #e2e2e2;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  position: absolute;
+  left: 70px;
+}
+.review__user {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 66px 0;
+  max-width: 320px;
+}
+.review__user-photo {
+  top: 20px;
+}
+
+.review__user-name {
+  font-family: "Open Sans";
+  font-size: 24px;
+  padding-left: 30px;
+}
+.review__user-profession {
+    font-family: 'Raleway';
+
+font-size: 18px;
+  padding-left: 100px;
+}
