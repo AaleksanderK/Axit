@@ -2,15 +2,12 @@
   display: flex;
   justify-content: space-between;
 }
-.review {
-  position: relative;
-}
+
 .review__message {
   max-width: 370px;
   min-height: 180px;
   background-color: #e2e2e2;
   position: relative;
-  margin: 0;
   border-radius: 10px;
 }
 .review__message-text {
@@ -37,9 +34,6 @@
   padding: 66px 0;
   max-width: 320px;
 }
-.review__user-photo {
-  top: 20px;
-}
 
 .review__user-name {
   font-family: "Open Sans";
@@ -47,8 +41,7 @@
   padding-left: 30px;
 }
 .review__user-profession {
-    font-family: 'Raleway';
-
-font-size: 18px;
+  font-family: "Raleway";
+  font-size: 18px;
   padding-left: 100px;
 }
