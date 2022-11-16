@@ -1,16 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import "normalize.css";
+@import "global.css";
 @import "header.css";
+@import "banner.css";
 @import "social-media.css";
 @import "tabs.css";
+@import "title.css";
 @import "awesome.css";
 @import "pricing.css";
-@import "footer.css";
-@import "global.css";
 @import "customers.css";
-@import "title.css";
 @import "desing.css";
+@import "footer.css";
 
 
 
