@@ -8,16 +8,28 @@
     font-size: 36px;
     padding-top: 100px;
     text-transform: uppercase;
+    font-weight: 400;
   }
-  .title__line {
+  .title__text::after{
+    content: '';
+    display: block;
+    max-width: 120px;
+    height: 1px;
+    background-color: #ec7979;
+    margin: 50px auto 35px;
+    
+  } 
+  
+  /* .title__line {
     border: none;
     background-color: #ec7979;
     height: 1px;
     width: 12vh;
     margin: 50px 0 35px;
-  }
+  } */
   .title__subtext {
     font-family: "Raleway";
     font-size: 18px;
+    font-weight: 400;
     padding-bottom: 60px;
   }
