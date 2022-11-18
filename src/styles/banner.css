@@ -6,7 +6,7 @@
 .banner-container {
   display: flex;
   justify-content: space-between;
-  padding: 17%  0;
+  padding: 17% 0;
 }
 
 .banner-text__logo {
@@ -49,7 +49,6 @@
   font-weight: 600;
   font-size: 18px;
   padding: 18px 75px;
-  
 }
 
 .banner-form {
@@ -57,15 +56,49 @@
   max-height: 450px;
   background-color: white;
   border-radius: 10px;
+  position: relative;
 }
 .banner-form__title {
   font-family: "Open Sans";
   font-weight: 700;
   font-size: 24px;
-  padding: 33px;
+  padding: 33px 0 60px;
   text-align: center;
 }
-.banner-form__title-red{
-  color: #EC7979;
+.banner-form__title-red {
+  color: #ec7979;
   background-color: white;
+}
+.banner-form__inputs {
+  display: flex;
+  flex-direction: column;
+}
+.banner-form__input {
+  font-family: "Open Sans";
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 0 0 16px;
+  margin: 0 50px 40px;
+}
+.banner-form__input:focus {
+  outline: none;
+}
+.nanner-form__input-submit {
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #ec7979;
+  color: white;
+  border: none;
+  min-height: 13.5%;
+  border-radius: 0px 0px 10px 10px;
+  font-family: "Open Sans"; 
+  font-weight: 600;
+  font-size: 15px;
+}
+.nanner-form__input-submit:hover {
+  background-color: #ab4949;
 }
