@@ -50,6 +50,15 @@
   font-size: 18px;
   padding: 18px 75px;
 }
+.banner-text__download:hover{
+    border: 1px solid #EC7979;
+  color: #EC7979;
+}
+.banner-text__download:active{
+  background-color: #AB4949;
+  color: white;
+  border: 1px solid #AB4949;
+}
 
 .banner-form {
   min-width: 470px;
@@ -85,7 +94,7 @@
 .banner-form__input:focus {
   outline: none;
 }
-.nanner-form__input-submit {
+.banner-form__input-submit {
   cursor: pointer;
   position: absolute;
   bottom: 0;
@@ -99,6 +108,10 @@
   font-weight: 600;
   font-size: 15px;
 }
-.nanner-form__input-submit:hover {
+.banner-form__input-submit:hover {
   background-color: #ab4949;
+}
+.banner-form__input-submit:active{
+  box-shadow: inset 0px 0px 10px #AB4949;
+  background: #EC7979;
 }

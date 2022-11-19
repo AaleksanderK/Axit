@@ -52,3 +52,11 @@
   border: none;
   cursor: pointer;
 }
+
+.tabs__button:hover{
+background-color: #AB4949;
+}
+.tabs__button:active{
+  background: #EC7979;
+  box-shadow: inset 0px 0px 10px #AB4949;
+  }

@@ -15,7 +15,7 @@ background-size: contain;
 .desing-download {
   cursor: pointer;
   background-color: transparent;
-  border: 1px solid white;
+  border: 2px solid white;
   color: white;
   font-family: "Open Sans";
   font-weight: 600;
@@ -23,4 +23,13 @@ background-size: contain;
   padding: 21px 140px ;
   margin: 0 auto;
   display: block;
+}
+.desing-download:hover{
+  border: 2px solid #EC7979;
+color: #EC7979;
+}
+.desing-download:active{
+  background-color: #AB4949;
+  color: white;
+  border: none;
 }
