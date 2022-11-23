@@ -19,3 +19,11 @@
   color: #ffffff80;
   padding-bottom: 30px;
 }
+@media (max-width: 1024px) {
+  .footer-title__text {
+    font-size: 14px;
+  }
+  .social-links__icon {
+    padding: 15px 15px;
+  }
+}

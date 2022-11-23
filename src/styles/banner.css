@@ -10,7 +10,7 @@
 }
 
 .banner-text__logo {
-  height: 120px;
+  min-height: 120px;
 }
 
 .banner-text__title {
@@ -27,7 +27,7 @@
   max-width: 120px;
   height: 1px;
   background-color: white;
-  margin: 50px 0 60px;
+  margin: 10% 0 8%;
 }
 
 .banner-text__subtitle {
@@ -61,7 +61,7 @@
 }
 
 .banner-form {
-  min-width: 470px;
+  min-width: 41%;
   max-height: 450px;
   background-color: white;
   border-radius: 10px;
@@ -114,4 +114,19 @@
 .banner-form__input-submit:active{
   box-shadow: inset 0px 0px 10px #AB4949;
   background: #EC7979;
+}
+
+@media (max-width:1024px){
+  .banner-text{
+    padding: 0 0 0 25px;
+  }
+  .banner-text__title {
+    font-size: 36px;
+  }
+  .banner-text__subtitle {
+    font-size: 14px;
+
+  }
+
+
 }

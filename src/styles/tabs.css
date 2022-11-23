@@ -53,10 +53,31 @@
   cursor: pointer;
 }
 
-.tabs__button:hover{
-background-color: #AB4949;
+.tabs__button:hover {
+  background-color: #ab4949;
 }
-.tabs__button:active{
-  background: #EC7979;
-  box-shadow: inset 0px 0px 10px #AB4949;
+.tabs__button:active {
+  background: #ec7979;
+  box-shadow: inset 0px 0px 10px #ab4949;
+}
+.tabs-picture__statue {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 1024px) {
+  .tabs__title {
+    font-size: 24px;
   }
+  .tabs__paragrah {
+    font-size: 14px;
+  }
+  .tabs__text {
+    max-height: 386px;
+    min-width: 594px;
+  }
+  .tabs-picture__statue {
+    max-width: 386px;
+    max-height: 385px;
+  }
+}
+

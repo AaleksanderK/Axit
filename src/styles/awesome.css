@@ -38,3 +38,22 @@
   font-family: "Raleway";
   font-size: 18px;
 }
+
+@media (max-width: 1024px) {
+  .cards__title {
+    font-size: 18px;
+  }
+  
+  .cards__paragraf {
+    font-size: 14px;
+  }
+  .cards__img {
+    max-width: 55px;
+    max-height: 55px;
+  }
+  
+  .cards__elipse {
+    max-width: 79px;
+    max-height: 79px;
+  }
+}

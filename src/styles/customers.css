@@ -4,7 +4,7 @@
 }
 
 .review__message {
-  max-width: 370px;
+  max-width: 97%;
   min-height: 180px;
   background-color: #e2e2e2;
   position: relative;
@@ -44,4 +44,18 @@
   font-family: "Raleway";
   font-size: 18px;
   padding-left: 100px;
+}
+
+@media (max-width: 1024px) {
+  .review__message-text {
+    font-size: 14px;
+  }
+  .review__user-name {
+    font-size: 18px;
+   
+  }
+  .review__user-profession {
+    font-size: 14px;
+  }
+  
 }
