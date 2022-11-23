@@ -35,3 +35,13 @@
     font-size: 14px;
   }
 }
+@media (max-width: 480px) {
+  .title__subtext {
+    text-align: center;
+    padding: 20px;
+  }
+  .title__text {
+    text-align: center;
+    padding-top: 60px;
+  }
+}

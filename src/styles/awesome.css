@@ -1,5 +1,3 @@
-
-
 .cards {
   display: flex;
   justify-content: space-between;
@@ -30,7 +28,6 @@
   font-family: "Open Sans";
   font-size: 24px;
   padding: 50px 0 20px;
-
 }
 
 .cards__paragraf {
@@ -43,7 +40,7 @@
   .cards__title {
     font-size: 18px;
   }
-  
+
   .cards__paragraf {
     font-size: 14px;
   }
@@ -51,9 +48,18 @@
     max-width: 55px;
     max-height: 55px;
   }
-  
+
   .cards__elipse {
     max-width: 79px;
     max-height: 79px;
+  }
+}
+@media (max-width: 480px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cards__paragraf {
+    padding: 30px;
   }
 }

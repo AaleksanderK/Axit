@@ -5,7 +5,7 @@
 
 .review__message {
   max-width: 97%;
-  min-height: 180px;
+  max-height: 180px;
   background-color: #e2e2e2;
   position: relative;
   border-radius: 10px;
@@ -52,10 +52,46 @@
   }
   .review__user-name {
     font-size: 18px;
-   
   }
   .review__user-profession {
     font-size: 14px;
   }
-  
+}
+
+@media (max-width: 480px) {
+  .review:nth-child(odd) {
+    display: none;
+  }
+  .review__user {
+    padding: 32px 0;
+  }
+  .review__user-dots {
+    background: #86878b;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 32px;
+    position: relative;
+  }
+  .review__user-dots::after {
+    content: "";
+    border: 1px solid #86878b;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    left: 4rem;
+  }
+  .review__user-dots::before {
+    content: "";
+    border: 1px solid #86878b;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    right: 4rem;
+  }
 }

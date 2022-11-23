@@ -3,14 +3,13 @@
     url(../assets/images/pictures/background_stylish.jpg);
   max-width: 100%;
   min-height: 442px;
-background-size: contain;
+  background-size: contain;
 }
-.title--white{
+.title--white {
   color: #ffffff;
 }
-.line--white::after{
-  background-color: #FFFFFF;
-  
+.line--white::after {
+  background-color: #ffffff;
 }
 .desing-download {
   cursor: pointer;
@@ -20,16 +19,21 @@ background-size: contain;
   font-family: "Open Sans";
   font-weight: 600;
   font-size: 18px;
-  padding: 21px 140px ;
+  padding: 21px 140px;
   margin: 0 auto;
   display: block;
 }
-.desing-download:hover{
-  border: 2px solid #EC7979;
-color: #EC7979;
+.desing-download:hover {
+  border: 2px solid #ec7979;
+  color: #ec7979;
 }
-.desing-download:active{
-  background-color: #AB4949;
+.desing-download:active {
+  background-color: #ab4949;
   color: white;
   border: none;
+}
+@media (max-width: 480px) {
+  .desing-download {
+    padding: 21px 30%;
+  }
 }
