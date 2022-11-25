@@ -15,21 +15,79 @@
             <div class="header-logo">
               <a class="header-logo__axit" href="#"
                 ><img
-                  src="./src/assets/images/icons/logo axit.svg"
+                  src="./src/assets/images/icons/logo_axit.svg"
                   alt="logotip axit"
-              /></a>
+                />
+              </a>
             </div>
             <nav class="header-navigation">
-              <a class="header-navigation__link" href="#">Features</a>
-              <a class="header-navigation__link" href="#">About</a>
-              <a class="header-navigation__link" href="#">Pricing</a>
-              <a class="header-navigation__link" href="#">Reviews</a>
-              <a class="header-navigation__link" href="#">Contact</a>
+              <a class="header-navigation__link" href="#features">Features</a>
+              <a class="header-navigation__link" href="#about">About</a>
+              <a class="header-navigation__link" href="#pricing">Pricing</a>
+              <a class="header-navigation__link" href="#reviews">Reviews</a>
+              <a class="header-navigation__link" href="#contact">Contact</a>
             </nav>
           </div>
         </div>
       </header>
       <main class="axit">
+        <section class="banner-content">
+          <div class="container">
+            <div class="banner-container">
+              <div class="banner-text">
+                <img
+                  class="banner-text__logo"
+                  src="./src/assets/images/icons/logo_axit.svg"
+                  alt="logotip axit"
+                />
+                <h2 class="banner-text__title">
+                  MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
+                </h2>
+                <p class="banner-text__subtitle">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                </p>
+                <button class="banner-text__download" type="button">
+                  Download
+                </button>
+              </div>
+
+              <form class="banner-form" action="#" name="banner-form">
+                <h4 class="banner-form__title">
+                  Try Your
+                  <mark class="banner-form__title-red">FREE</mark> Trial Today
+                </h4>
+                <div class="banner-form__inputs">
+                  <input
+                    class="banner-form__input"
+                    type="text"
+                    placeholder="Name"
+                    name="name"
+                    required
+                  />
+                  <input
+                    class="banner-form__input"
+                    type="email"
+                    placeholder="Email"
+                    name="email"
+                    required
+                  />
+                  <input
+                    class="banner-form__input"
+                    type="password"
+                    placeholder="Password"
+                    name="password"
+                    required
+                  />
+                </div>
+                <input
+                  class="banner-form__input-submit"
+                  type="submit"
+                  value="Get Started"
+                />
+              </form>
+            </div>
+          </div>
+        </section>
         <section class="social-media">
           <div class="container">
             <div class="social-container">
@@ -40,7 +98,7 @@
                   Aenean euismod bibendum laoreet.
                 </p>
               </div>
-              <div class="social-links">
+              <address class="social-links">
                 <a href="#">
                   <img
                     class="social-links__icon"
@@ -83,11 +141,11 @@
                     src="./src/assets/images/icons/rss_icon.svg"
                     alt="rss"
                 /></a>
-              </div>
+              </address>
             </div>
           </div>
         </section>
-        <section class="tabs-content">
+        <section class="tabs-content" id="features">
           <div class="container">
             <div class="tabs">
               <div class="tabs__navigation">
@@ -125,11 +183,10 @@
             </div>
           </div>
         </section>
-        <section class="awesome-content">
+        <section class="awesome-content" id="about">
           <div class="container">
             <div class="title">
               <h1 class="title__text">why this is awesome</h1>
-              <hr class="title__line" />
               <h2 class="title__subtext">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </h2>
@@ -183,11 +240,10 @@
             </div>
           </div>
         </section>
-        <section class="pricing-content">
+        <section class="pricing-content" id="pricing">
           <div class="container">
             <div class="title">
               <h1 class="title__text">pricing options</h1>
-              <hr class="title__line" />
               <h2 class="title__subtext">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </h2>
@@ -246,10 +302,141 @@
             </div>
           </div>
         </section>
+        <section class="customers-content" id="reviews">
+          <div class="container">
+            <div class="title">
+              <h1 class="title__text">what our customers are saying</h1>
+              <h2 class="title__subtext">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </h2>
+            </div>
+            <div class="reviews">
+              <div class="review">
+                <div class="review__message">
+                  <p class="review__message-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Doloribus accusamus expedita repellat similique odio
+                    aspernatur ex, architecto eaque quo suscipit.
+                  </p>
+                </div>
+                <div class="review__user">
+                  <img
+                    class="review__user-photo"
+                    src="./src/assets/images/pictures/user_davis.png"
+                    alt=""
+                  />
+                  <h4 class="review__user-name">Davis Rhiel Madsen</h4>
+                  <span class="review__user-profession">Manager</span>
+                </div>
+              </div>
+              <div class="review">
+                <div class="review__message">
+                  <p class="review__message-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Doloribus accusamus expedita repellat similique odio
+                    aspernatur ex, architecto eaque quo suscipit.
+                  </p>
+                </div>
+                <div class="review__user">
+                  <img
+                    class="review__user-photo"
+                    src="./src/assets/images/pictures/user_jaydon.png"
+                    alt="Jaydon Rosser"
+                  />
+                  <h4 class="review__user-name">Jaydon Rosser</h4>
+                  <span class="review__user-profession">Manager</span>
+                </div>
+                <span class="review__user-dots"></span>
+              </div>
+              <div class="review">
+                <div class="review__message">
+                  <p class="review__message-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Doloribus accusamus expedita repellat similique odio
+                    aspernatur ex, architecto eaque quo suscipit.
+                  </p>
+                </div>
+                <div class="review__user">
+                  <img
+                    class="review__user-photo"
+                    src="./src/assets/images/pictures/user_cooper.png"
+                    alt="Cooper Dorwart"
+                  />
+                  <h4 class="review__user-name">Cooper Dorwart</h4>
+                  <span class="review__user-profession">Manager</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="desing-content">
+          <div class="container">
+            <div class="title title--white">
+              <h1 class="title__text line--white">STYLISH AXURE DESIGN</h1>
+              <h2 class="title__subtext">
+                Use the sections you need, remove the ones you don't. Create
+                gorgeous prototypes faster than ever!
+              </h2>
+            </div>
+            <button class="desing-download" type="button">Download</button>
+          </div>
+        </section>
+        <section class="contact-content" id="contact">
+          <div class="container">
+            <div class="title">
+              <h1 class="title__text">contact us</h1>
+              <h2 class="title__subtext">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </h2>
+            </div>
+            <form class="contact-form" action="#" name="contact-form">
+              <div class="contact-container">
+                <div class="contact-container__inputs">
+                  <input
+                    class="contact-container__input"
+                    type="text"
+                    placeholder="Name"
+                    name="name"
+                    required
+                  />
+                  <input
+                    class="contact-container__input"
+                    type="email"
+                    placeholder="Email"
+                    name="email"
+                    required
+                  />
+                  <input
+                    class="contact-container__input"
+                    type="password"
+                    placeholder="Password"
+                    name="password"
+                    required
+                  />
+                </div>
+                <textarea
+                  class="contact-container__message"
+                  name="message"
+                  id="#"
+                  cols="30"
+                  rows="10"
+                  placeholder="Message"
+                  maxlength="700"
+                  required
+                ></textarea>
+              </div>
+              <input
+                class="contact-form__input-submit"
+                type="submit"
+                value="Send Message"
+              />
+            </form>
+          </div>
+        </section>
       </main>
       <footer class="footer-content">
         <div class="container-footer">
-          <div class="social-links">
+          <address class="social-links">
             <a href="#">
               <img
                 class="social-links__icon"
@@ -292,7 +479,7 @@
                 src="./src/assets/images/icons/rss_icon.svg"
                 alt="rss"
             /></a>
-          </div>
+          </address>
           <div class="footer-title">
             <h6 class="footer-title__text">© 2015 Axure Themes</h6>
           </div>

@@ -1,0 +1,39 @@
+.desing-content {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../assets/images/pictures/background_stylish.jpg);
+  max-width: 100%;
+  min-height: 442px;
+  background-size: contain;
+}
+.title--white {
+  color: #ffffff;
+}
+.line--white::after {
+  background-color: #ffffff;
+}
+.desing-download {
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 18px;
+  padding: 21px 140px;
+  margin: 0 auto;
+  display: block;
+}
+.desing-download:hover {
+  border: 2px solid #ec7979;
+  color: #ec7979;
+}
+.desing-download:active {
+  background-color: #ab4949;
+  color: white;
+  border: none;
+}
+@media (max-width: 480px) {
+  .desing-download {
+    padding: 21px 30%;
+  }
+}

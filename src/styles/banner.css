@@ -1,0 +1,165 @@
+.banner-content {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../assets/images/pictures/background_banner.jpg) 0 0/100% 100%;
+}
+
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 17% 0;
+}
+
+.banner-text__logo {
+  min-height: 120px;
+}
+
+.banner-text__title {
+  font-family: "Raleway";
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  color: white;
+  max-width: 670px;
+}
+.banner-text__title::after {
+  content: "";
+  display: block;
+  max-width: 120px;
+  height: 1px;
+  background-color: white;
+  margin: 10% 0 8%;
+}
+
+.banner-text__subtitle {
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 21px;
+  color: white;
+  max-width: 270px;
+  padding-bottom: 42px;
+}
+
+.banner-text__download {
+  display: block;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 18px;
+  padding: 18px 75px;
+}
+.banner-text__download:hover {
+  border: 1px solid #ec7979;
+  color: #ec7979;
+}
+.banner-text__download:active {
+  background-color: #ab4949;
+  color: white;
+  border: 1px solid #ab4949;
+}
+
+.banner-form {
+  min-width: 41%;
+  max-height: 450px;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+}
+.banner-form__title {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 24px;
+  padding: 33px 0 60px;
+  text-align: center;
+}
+.banner-form__title-red {
+  color: #ec7979;
+  background-color: white;
+}
+.banner-form__inputs {
+  display: flex;
+  flex-direction: column;
+}
+.banner-form__input {
+  font-family: "Open Sans";
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 0 0 16px;
+  margin: 0 50px 40px;
+}
+.banner-form__input:focus {
+  outline: none;
+}
+.banner-form__input-submit {
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #ec7979;
+  color: white;
+  border: none;
+  min-height: 13.5%;
+  border-radius: 0px 0px 10px 10px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 15px;
+}
+.banner-form__input-submit:hover {
+  background-color: #ab4949;
+}
+.banner-form__input-submit:active {
+  box-shadow: inset 0px 0px 10px #ab4949;
+  background: #ec7979;
+}
+
+@media (max-width: 1024px) {
+  .banner-text {
+    padding: 0 0 0 25px;
+  }
+  .banner-text__title {
+    font-size: 36px;
+  }
+  .banner-text__subtitle {
+    font-size: 14px;
+  }
+}
+@media (max-width: 480px) {
+  .banner-text {
+    padding: 0;
+  }
+  .banner-container {
+    flex-direction: column;
+  }
+  .banner-text__logo {
+    display: none;
+  }
+  .banner-text__title {
+    text-align: center;
+  }
+  .banner-text__title::after {
+    margin: 10% auto 8%;
+  }
+  .banner-text__subtitle {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 288px;
+  }
+  .banner-text__download {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 18px 35%;
+    margin: 0 auto 15%;
+  }
+  .banner-form {
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .banner-form__inputs {
+    padding: 0 0 60px;
+  }
+}
